@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Button Clicker</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="navbar">
+                <h1>Dojonary</h1>
+                <form class="search" action="/" method="get">
+                    <input type="search" placeholder="Search" id="page-search">
+                </form>
+                <button class="login" onclick="login(this)">Login</button>
+            </header>
+
+            <div class="main">
+                <div class="col1">
+                    <section class="definition">
+                        <div class="def-col1">
+                            <h1>ninja</h1>
+                            <p class="small italics">noun</p>
+                            <p class="smaller">Plural: <span class="italics">ninjas</span></p>
+                            <button class="def-likes" onclick="liked(this)"> 13 likes</button>
+                        </div>
+                        <div class="def-col2">
+                            <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                        </div>
+                    </section>
+                    <section class="definition">
+                        <div class="def-col1">
+                            <h1>ninja</h1>
+                            <p class="small italics">noun</p>
+                            <p class="smaller">Plural: <span class="italics">ninjas</span></p>
+                            <button class="def-likes" onclick="liked(this)"> 13 likes</button>
+                        </div>
+                        <div class="def-col2">
+                            <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                        </div>
+                    </section>
+                </div>
+
+                <aside class="col2">
+                    <section class="add-def">
+                        <h4 class="by-you">Dojonary is defined by <span class="bold">YOU</span></h4>
+                        <button class="add" onclick="hide(this)">Add Definition</button>
+                    </section>
+                </aside>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

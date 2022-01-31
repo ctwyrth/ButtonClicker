@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Primary container for the page */
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header and navigation section */
+.navbar {
+    width: 65%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgray;
+    color: whitesmoke;
+    padding: 10px 30px;
+}
+
+.navbar h1 {
+    font-weight: 500;
+}
+
+.search {
+    width: 38%;
+}
+
+#page-search {
+    width: 100%;
+    height: 1.5rem;
+    border: 1px solid black;
+    padding: 0 .25rem;
+}
+
+.login {
+    padding: .25rem .75rem;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px rgba(0,0,0,.75);
+}
+
+.login:hover{
+    background-color: powderblue;
+    color: black;
+    box-shadow: 2px 2px black;
+}
+
+/* Body section of the page */
+.main {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* The left column section of main */
+.col1 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+/* The sectional elements of the left column of main */
+.definition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    height: auto;
+}
+
+.def-col1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    height: auto;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.def-col1 h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.small {
+    font-size: 1.125rem;
+}
+
+.smaller {
+    font-size: .85rem;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.def-col1 p {
+    margin: 5px 0;
+}
+
+.def-likes {
+    font-weight: 600;
+    padding: .25rem .75rem;
+    border: 1px solid black;
+    background-color: goldenrod;
+    box-shadow: 4px 4px 2px rgba(0,0,0,.75);
+    margin: 10px 0;
+}
+
+.def-likes:hover {
+    background-color:gold;
+    box-shadow: 2px 2px black;
+}
+
+.def-col2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+    margin: 10px 0;
+}
+
+/* The right column/aside section of main */
+.col2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.add-def {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.add-def h4 {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.by-you {
+    margin: 10px 20px 20px;
+}
+
+.add {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .25rem .75rem;
+    border: 1px solid black;
+    background-color: limegreen;
+    box-shadow: 4px 4px 2px rgba(0,0,0,.75);
+    margin: 0px auto 20px;
+}
+
+.add:hover {
+    background-color: greenyellow;
+    box-shadow: 2px 2px black;
+}
